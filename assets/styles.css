@@ -18,6 +18,10 @@ body {
 }
 /* Navbar */
 .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25vw;
     background-color: #4CAF50; /* Green background color */
     overflow: hidden;
     border-radius: 8px; /* Rounded corners */
@@ -36,6 +40,13 @@ body {
 
 .navbar a:hover {
     background-color: #2E8B57; /* Darker green on hover */
+}
+.navbar .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 24px;
+    color: white;
 }
 /* Navbar */
 
