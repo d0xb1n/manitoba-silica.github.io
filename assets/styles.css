@@ -1,10 +1,12 @@
+/* Reset styles */
 body {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
-    background-color: rgb(136, 255, 136);
+    background-color: rgb(208, 255, 208);
 }
+/* Container */
 .container {
     width: 80%;
     max-width: 1200px;
@@ -14,3 +16,29 @@ body {
     background-color: #f0f0f0b6;
     border: 1px solid #ccc;
 }
+/* Navbar */
+.navbar {
+    background-color: #4CAF50; /* Green background color */
+    overflow: hidden;
+    border-radius: 8px; /* Rounded corners */
+    margin: 20px auto; /* Center the navbar */
+    width: 80%; /* Set the width of the navbar */
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #2E8B57; /* Darker green on hover */
+}
+/* Navbar */
+
+
+
+/* Background image for the content */
