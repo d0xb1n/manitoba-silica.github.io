@@ -3,14 +3,14 @@ body {
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
-    background-color: rgb(215, 255, 214);
+    background-color: rgb(136, 255, 136);
 }
 .container {
-    width: 100%;
+    width: 80%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: auto;
     padding: 20px;
     box-sizing: border-box;
-    background-color: #f0f0f0;
+    background-color: #f0f0f0b6;
     border: 1px solid #ccc;
 }
